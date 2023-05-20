@@ -3,13 +3,13 @@
 GENERALIZED IDEA OF OUR PROJECT->
 With the increased use of the internet, web applications and websites are becoming more and more common due to which cyber-attacks on web applications and websites are also increasing. 
 Of all the different types of cyber-attacks on web applications and websites, XSS (Cross-Site Scripting) attacks are one of the most common forms of attack. 
-•	An attacker who exploits a cross-site scripting vulnerability is typically able to read any data that the user can access, capture the user's login credentials, impersonate or masquerade as the victim user. 
-•	XSS attacks enable attackers to inject client-side scripts into web pages viewed by other users. 
-•	The existing attack detection strategies have failed miserably in most of the situations. Moreover, users have also not taken much care of configuring their browsers securely, using available extensions and plugins. 
-•	The scripts are also executed automatically without the user’s permission unless he disables it. 
-•	The users therefore need to protect themselves from these vulnerabilities hence the detection of XSS attacks is very important.
-•	So, we decided to make a plugin which detects whether the site is XSS vulnerable or not in real time by penetrating inside the site’s code and inserting our JS code to check if it returns any information or not. 
-•	If we get any valuable information as a result of the code we inserted, then the site is XSS vulnerable otherwise it is not XSS vulnerable.
+*An attacker who exploits a cross-site scripting vulnerability is typically able to read any data that the user can access, capture the user's login credentials, impersonate or masquerade as the victim user. 
+*XSS attacks enable attackers to inject client-side scripts into web pages viewed by other users. 
+*The existing attack detection strategies have failed miserably in most of the situations. Moreover, users have also not taken much care of configuring their browsers securely, using available extensions and plugins. 
+*The scripts are also executed automatically without the user’s permission unless he disables it. 
+*The users therefore need to protect themselves from these vulnerabilities hence the detection of XSS attacks is very important.
+*So, we decided to make a plugin which detects whether the site is XSS vulnerable or not in real time by penetrating inside the site’s code and inserting our JS code to check if it returns any information or not. 
+*If we get any valuable information as a result of the code we inserted, then the site is XSS vulnerable otherwise it is not XSS vulnerable.
 
 DETAILED PROCESS->
 •	The user or victim will first log into his account.
